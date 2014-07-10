@@ -1,5 +1,5 @@
 #plot 1
-download.file("https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip",destfile="power.zip")
+download.file("http://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip",destfile="power.zip")
 PowerConsumption = read.table(unz("power.zip","household_power_consumption.txt"),sep=";", header=TRUE, stringsAsFactors=FALSE)
 
 #Plot 1 - using data from the dates 02-01-2007 and 02-02-2007
